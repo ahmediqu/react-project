@@ -1,0 +1,184 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+   
+   /* Base Css Start */
+    body{
+      font-family: SolaimanLipi;
+    }
+    a{
+      text-decoration: none;
+    }
+    p,h1,h2,h3,h4,h5,h6{
+      margin: 0 !important;
+    }
+
+   /* Base Css End */
+
+   /* Card Start */
+
+   .card-body{
+    line-height: 40px;
+    
+   }
+   .card-link{
+    font-size: 22 vh;
+    font-weight: 500;
+   }
+   .card-body a{
+    text-align: center;
+   }
+   .card-title{
+    margin:0px;
+   }
+   
+   .card{
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+   }
+   .card:last-child{
+    border:0px;
+   }
+
+   /* Card End */
+   .row{
+        margin: 0;
+    }
+
+    .left-side{
+      padding-right: 50px;
+      border-right: 2px solid #ddd;
+    }
+    .custom-btn:hover{
+      background: #9B9B9B;
+      color: #fff;
+    }
+    .custom-btn{
+      background: #F36600;
+      color: #fff;
+      border-radius: 30px;
+      border: none;
+      font-weight: 700;
+      font-size: 30px;
+      font-weight: 700;
+      padding: 7px 47px;
+
+    }
+    .custom-line-height{
+      line-height: 35px;
+    }
+    .user-image-icon{
+      display: none;
+    }
+    
+    .user-image{
+      height: 50px;
+      width: 50px;
+    }
+      
+    .googleMap{
+      padding-left: 50px;
+    }
+    .menu a{
+      font-family: Baloo Da !important;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      color: rebeccapurple;
+      padding: 2px 15px;
+      position: relative;
+      border-right: 3px solid rebeccapurple;
+    }
+    .menu a:after{
+      content: "";
+      position: absolute;
+      height: 2px;
+      background: rebeccapurple;
+    }
+    .user-image-mobile{
+      display: none;
+    }
+
+    /* Responsive Design */
+
+    @media only screen and (max-width: 600px) {
+    .card-link{
+      font-size: 18px;
+      font-weight: 500;
+    }
+      .left-side{
+        padding-right: 0px;
+        border-right: 0px;
+      }
+      .user-image{
+        display: none;
+      }
+      .menu{
+        margin-top: 30px;
+      }
+      .menu a{
+        font-family: Baloo Da !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rebeccapurple;
+        margin: 10px;
+      }
+      .user-image-mobile{
+        display: block;
+      }
+      .user-image-icon{
+        display: none;
+      }
+      .svg{
+          width: 100px !important;
+      }
+      .navbar-toggler-img{
+        background-image: url('logo.png');
+        width: 39px;
+        height: 39px;
+        border: none;
+        background-color: white
+      }
+      .navbar-toggler-img{
+          display: block;
+      }
+      .navbar {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+        height: 210px;
+      }
+      }
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px){
+    .menu a {
+      font-family: Baloo Da !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rebeccapurple;
+    margin: -7px;
+}
+.custom-btn{
+  font-size: 25px;
+}
+.card-link {
+    font-size: 14px;
+    font-weight: 500;
+}
+}
+      /* .custom-toggle-btn{
+        background-color: orange;
+      } */
+      .navbar-toggler-img{
+        display: none;
+      }
